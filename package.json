@@ -1,20 +1,15 @@
 {
   "name": "slackbot",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "dev": "nodemon index.js",
-    "start": "node index.js"
-  },
-  "keywords": [],
   "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "dotenv": "^16.3.1",
-    "nodemon": "^3.0.2"
-  },
+  "main": "index.js",
   "dependencies": {
     "@slack/bolt": "^3.16.0"
+  },
+  "description": "",
+  "keywords": [],
+  "license": "ISC",
+  "scripts": {
+    "start": "bun --hot run index.js"
   }
 }
